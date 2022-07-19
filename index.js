@@ -25,7 +25,7 @@ app.get('/display', (req, res) => {
   connect.getConnection(function (err, connection) {
     if (err) { res.send('Error Database Connection'); }
     else {
-      var sql = "SELECT * FROM customer";
+      var sql = "SELECT * FROM user";
       connect.query(sql, function (err, result) {
         if (err) { throw err; }
         else {

@@ -7,9 +7,9 @@ app.use(cors());
 
 var connect = mysql.createPool({
   host: "us-cdbr-east-06.cleardb.net",
-  user: "b6037f17a0d586",
-  password: "4a65c704",
-  database: "heroku_37bf4a28eb9934b"
+  user: "b9215506bce412",
+  password: "66b153aa",
+  database: "heroku_e06b7902d8d94a1"
 });
 
 app.get('/', (req, res) => {

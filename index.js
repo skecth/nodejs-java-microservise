@@ -6,10 +6,10 @@ const app = express();
 app.use(cors());
 
 var connect = mysql.createPool({
-  host: "us-cdbr-east-05.cleardb.net",
-  user: "b60aeb8a3d95c4",
-  password: "13f26d04",
-  database: "heroku_9e3eec1049bc61a"
+  host: "us-cdbr-east-06.cleardb.net",
+  user: "b6037f17a0d586",
+  password: "4a65c704",
+  database: "heroku_37bf4a28eb9934b"
 });
 
 app.get('/', (req, res) => {
